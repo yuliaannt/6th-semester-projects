@@ -1,0 +1,13 @@
+numpy
+nltk
+tensorflow
+tflearn
+flask
+gensim
+sklearn
+pymongo
+fasttext
+tsne
+
+
+
