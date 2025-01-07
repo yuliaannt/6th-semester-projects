@@ -1,0 +1,370 @@
+{
+    "intents": [
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "Hai",
+                "Hei",
+                "Halo",
+                "Selamat pagi!",
+                "Hei! Selamat pagi",
+                "Hei di sana",
+                "Hei Janet",
+                "Selamat pagi sekali",
+                "Selamat pagi untuk Anda",
+                "Salam",
+                "Salam untuk Anda"
+            ],
+            "responses": [
+                "Halo, saya Sidorobot! Bagaimana saya bisa membantu Anda?",
+                "Hai! Saya Sidorobot. Bagaimana saya dapat membantu Anda hari ini?"
+            ]
+        },
+        {
+            "tag": "pesan_tiket",
+            "patterns": [
+                "Pesan tiket",
+                "Bisa saya pesan tiket?",
+                "Saya ingin memesan tiket",
+                "Pesan tiket",
+                "Saya ingin memesan tiket",
+                "Bisa saya pesan tiket?",
+                "Bisakah Anda membantu saya memesan tiket",
+                "Bisa saya memesan tiket?",
+                "Saya butuh reservasi",
+                "Bisakah Anda membantu saya dengan reservasi",
+                "Bisa saya memesan reservasi",
+                "Bisa saya memiliki tiket?",
+                "Bantu saya memesan tiket",
+                "pesan tiket"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "tiket_tersedia",
+            "patterns": [
+                "Berapa banyak tiket yang tersedia?",
+                "Tiket yang tersedia",
+                "Berapa banyak tiket yang tersedia?",
+                "Tiket yang tersedia",
+                "Apakah ada tiket yang tersedia?",
+                "Berapa kapasitas tujuan",
+                "Apakah ada tiket yang tersedia?",
+                "Apakah ada tiket yang tersisa?",
+                "Saya ingin tahu apakah ada tiket yang tersedia sekarang",
+                "Boleh saya tahu apakah ada tiket yang bisa saya pesan?"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "perpisahan",
+            "patterns": [
+                "sampai jumpa",
+                "Saya akan pergi sekarang",
+                "Sampai nanti",
+                "Selamat tinggal",
+                "Pergi sekarang, Bye",
+                "Selamat tinggal sayang",
+                "Bye sayang",
+                "Saya akan pergi",
+                "Selamat hari",
+                "sampai jumpa nanti",
+                "Saya harus pergi sekarang",
+                "Saya harus buru-buru sekarang",
+                "Terima kasih, selamat tinggal",
+                "Bye",
+                "Oke Bye",
+                "Oke selamat malam",
+                "Selamat hari yang baik",
+                "Hari yang menyenangkan",
+                "Tata",
+                "Hati-hati"
+            ],
+            "responses": [
+                "Senang sekali melayani Anda!",
+                "Harap bertemu Anda lagi segera! Selamat tinggal!",
+                "Bye! Harap bertemu Anda lagi!"
+            ]
+        },
+        {
+            "tag": "identitas",
+            "patterns": [
+                "siapa nama kamu",
+                "apa yang harus saya panggil Anda",
+                "siapa nama Anda?",
+                "siapa kamu",
+                "Apakah Anda manusia?",
+                "Apakah saya berbicara dengan bot",
+                "Apakah Anda bot",
+                "Bisa saya minta nama Anda",
+                "nama"
+            ],
+            "responses": [
+                "Anda bisa memanggil saya Sidorobot.",
+                "Saya Sidorobot!",
+                "Saya Sidorobot."
+            ]
+        },
+        {
+            "tag": "jam_buka",
+            "patterns": [
+                "kapan kalian buka",
+                "jam berapa kalian buka",
+                "jam operasional",
+                "jam",
+                "apa jam operasional",
+                "kapan kalian buka",
+                "Apakah kalian buka setiap hari?",
+                "apakah kalian buka sekarang",
+                "apakah kalian buka saat liburan",
+                "apakah kalian buka setiap hari kerja?",
+                "jam kerja",
+                "jam",
+                "apa jam kerja kalian?"
+            ],
+            "responses": [
+                "Kami buka jam 10 pagi-4 sore Senin-Minggu!"
+            ]
+        },
+        {
+            "tag": "wisata",
+            "patterns": [
+                "Saya ingin penyembuhan",
+                "apa yang ada di tujuan",
+                "bisakah saya mendapatkan sesuatu untuk segar",
+                "Saya sangat bosan",
+                "Saya bosan",
+                "Tunjukkan tujuan",
+                "Apa tujuan yang Anda miliki",
+                "tujuan apa yang Anda tawarkan?",
+                "apa yang ada di tujuan hari ini?",
+                "Biarkan saya melihat tujuan",
+                "tujuan"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "kontak",
+            "patterns": [
+                "informasi kontak",
+                "bagaimana kami menghubungi Anda",
+                "bagaimana saya bisa menghubungi Anda",
+                "bisa saya mendapatkan detail kontak",
+                "Saya ingin memberikan umpan balik",
+                "bagaimana saya bisa memberikan umpan balik?",
+                "Bisakah Anda memberikan kontak eksekutif?",
+                "Apa nomor telepon help desk?",
+                "Bisakah Anda memberi saya nomor Anda",
+                "Bisa saya mendapatkan nomor layanan pelanggan?",
+                "Bisakah saya mendapatkan nomor help desk"
+            ],
+            "responses": [
+                "Anda dapat menghubungi kami di contact@Otban3.com, nomor help desk kami adalah 8787878787"
+            ]
+        },
+        {
+            "tag": "alamat",
+            "patterns": [
+                "apa lokasinya?",
+                "apa lokasinya",
+                "dimana kalian berada?",
+                "dimana lokasi tujuan?",
+                "alamat",
+                "apa alamatnya?",
+                "apa alamat tujuan",
+                "Saya tidak bisa menemukan lokasi Anda",
+                "Saya tidak bisa menemukan lokasi Anda",
+                "Bisakah saya mendapatkan alamat tujuan",
+                "bagaimana menuju ke sana?",
+                "Alamat?",
+                "apa alamat tujuan ini?"
+            ],
+            "responses": [
+                "Anda dapat menemukan kami di Otoritas Penerbangan Wilayah III, Segoro Tambak, Kec. Sedati, Kabupaten Sidoarjo, Jawa Timur 61253, Indonesia"
+            ]
+        },
+        {
+            "tag": "tanggapan_positif",
+            "patterns": [
+                "tujuan itu luar biasa",
+                "saya suka tujuan",
+                "Anda melakukan pekerjaan yang bagus",
+                "Suka tujuan",
+                "Sangat menyukainya",
+                "Suka perilaku staf",
+                "anak saya menyukai permainan itu!",
+                "permainannya sangat menyenangkan!",
+                "sempurna",
+                "kami sangat puas dengan layanan",
+                "tujuan itu sangat mengubah permainan",
+                "tujuan yang luar biasa",
+                "sangat senang kami menemukan tempat ini",
+                "Saya dan keluarga saya sangat puas dengan layanan dan tujuan ini",
+                "tempat ini luar biasa"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "tanggapan_negatif",
+            "patterns": [
+                "apa yang salah dengan tujuan ini?",
+                "Ew membuang-buang uang",
+                "Harganya terlalu mahal",
+                "Saya benci tujuan, opsinya sangat sedikit",
+                "terlalu membosankan",
+                "kami disajikan tujuan dingin",
+                "sangat kecewa",
+                "tujuan itu menyedihkan",
+                "benci itu",
+                "istri saya benci tujuan",
+                "eww",
+                "benci perilaku staf",
+                "saya benci itu",
+                "benci layanan",
+                "tolong latih staf dengan benar",
+                "Ini sangat membuang-buang uang",
+                "Benci staf",
+                "Sangat tidak puas",
+                "kecewa",
+                "sangat buruk",
+                "sangat buruk",
+                "tujuan menjijikkan"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "kebersihan",
+            "patterns": [
+                "apakah aman untuk tujuan di sini?",
+                "Bisakah Anda memberitahu protokol keamanan COVID Anda?",
+                "Saya ingin tahu tentang kebersihan tujuan",
+                "Silakan bagikan proses sanitasi Anda",
+                "Saya khawatir tentang sanitasi terkait COVID",
+                "Apakah aman untuk tujuan di luar dalam pandemi ini?",
+                "apakah kalian bersih",
+                "saya khawatir tentang kebersihan"
+            ],
+            "responses": [
+                "Saya mengerti kekhawatiran Anda. Berikut adalah protokol COVID yang direkomendasikan WHO yang kami ikuti untuk memastikan keamanan Anda: \n 1. Semua staf kami memakai masker ganda 24x7. \n 2. Semua staf kami diperiksa demam dan gejala lainnya setiap hari. \n 3. Semua permukaan sering disanitasi. \n 4. Kami menggunakan bot yang ramah ini untuk mengurangi kedekatan fisik seminimal mungkin!"
+            ]
+        },
+        {
+            "tag": "penawaran",
+            "patterns": [
+                "Bisakah Anda memberi tahu opsi yang ramah kantong?",
+                "Apakah ada diskon yang berlangsung?",
+                "Apakah ada penawaran khusus hari ini?",
+                "Bagaimana dengan penawaran festival?",
+                "Bisakah Anda memberi tahu tujuan mana yang diskon?",
+                "apakah ada diskon",
+                "apakah ada penawaran diskon",
+                "apakah Anda punya penawaran?",
+                "apa penawaran yang sedang berlangsung?",
+                "apa diskon yang tersedia?"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "turis_tanya",
+            "patterns": [
+                "Apa saja tempat wisata teratas di Kediri?",
+                "Bisakah Anda merekomendasikan beberapa tempat wisata populer di Kediri?",
+                "Apa saja tempat yang wajib dikunjungi untuk turis di Kediri?",
+                "Apakah ada landmark sejarah di Kediri?",
+                "Apa saja landmark terkenal di Kediri?",
+                "Bisakah Anda menyarankan beberapa atraksi budaya di Kediri?",
+                "Apa saja kegiatan luar ruangan terbaik untuk turis di Kediri?",
+                "Apakah ada tur berpemandu untuk turis di Kediri?",
+                "Bisakah Anda merekomendasikan beberapa kegiatan ramah keluarga di Kediri?",
+                "Apa saja tempat terbaik untuk mengambil foto di Kediri?"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "traveler_tanya",
+            "patterns": [
+                "Apa saja persyaratan perjalanan untuk mengunjungi Kediri?",
+                "Apakah saya perlu visa untuk bepergian ke Kediri?",
+                "Apakah ada pembatasan masuk untuk wisatawan ke Kediri?",
+                "Bisakah Anda memberikan informasi tentang opsi transportasi di Kediri?",
+                "Kapan waktu terbaik untuk mengunjungi Kediri?",
+                "Apakah ada nasihat perjalanan untuk Kediri?",
+                "Bisakah Anda merekomendasikan akomodasi untuk wisatawan di Kediri?",
+                "Apa saja adat dan etiket lokal di Kediri?",
+                "Apakah aman bagi wisatawan solo untuk mengunjungi Kediri?",
+                "Bisakah Anda menyarankan rencana perjalanan untuk Kediri?"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "itinerary_tanya",
+            "patterns": [
+                "Bisakah Anda memberi tahu saya lebih banyak tentang itinerary di Kediri?",
+                "Apa itinerary dari ini?",
+                "Apa saja itinerary dari itinerary ini?",
+                "Beritahu saya yang spesifik"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "saran",
+            "patterns": [
+                "Apa yang Anda rekomendasikan?",
+                "Apakah Anda punya saran?",
+                "Tolong beri saran sesuatu",
+                "Kenapa Anda tidak merekomendasikan saya suatu tujuan?",
+                "Bantu saya memilih apa yang harus dipesan",
+                "Kejutkan saya!",
+                "Apakah Anda punya rekomendasi khusus untuk saya?",
+                "Apa yang Anda sarankan?",
+                "Apa saran Anda?",
+                "Apa yang wajib dicoba?",
+                "Apa yang harus saya coba?",
+                "Apa yang harus saya tuju?",
+                "Beri tahu saya apa yang harus dipesan",
+                "Beri tahu saya apa yang harus saya beli",
+                "Rekomendasikan saya suatu tujuan",
+                "Sarankan saya suatu tujuan"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "umum",
+            "patterns": [
+                "oke",
+                "pasti",
+                "keren",
+                "hmm",
+                "baik",
+                "terima kasih",
+                "uhuh"
+            ],
+            "responses": [
+                ":)",
+                "Senang melayani Anda!",
+                "Senang membantu!",
+                "Selalu senang membantu Anda!"
+            ]
+        }
+    ]
+}
